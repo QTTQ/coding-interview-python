@@ -15,6 +15,7 @@ from src.problems.p01_find_kth_node import find_kth_node
                          [
                              (None, 1, None),
                              ([], 1, None),
+                             ([1], 1, 1),
                              ([1, 2, 3], 0, None),
                              ([1, 2, 3], 1, 3),
                              ([1, 2, 3], 2, 2),
