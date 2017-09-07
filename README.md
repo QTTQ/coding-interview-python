@@ -5,4 +5,4 @@ Coding Interview
 
 # 题目目录
 
-1. [求链表中的倒数第 k 个节点]()
+1. [求链表中的倒数第 k 个节点](src/problems/p01_find_kth_node.py)
