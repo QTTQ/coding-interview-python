@@ -9,3 +9,6 @@ Coding Interview
 1. [找出数组中重复的数字](src/problems/p02_find_duplicate_numbers.py)
 1. [不修改数组找出重复的数字](src/problems/p03_find_duplicate_numbers2.py)
 1. [二维数组查找](src/problems/p04_find_in_sorted_matrix.py)
+1. [字符串空格替换](src/problems/p05_replace_space_in_text.py)
+1. [有序列表合并](src/problems/p06_merge_two_sorted_arrays.py)
+1. [倒序打印链表](src/problems/p07_print_linkedlist_reversely.py)
