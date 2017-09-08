@@ -12,3 +12,5 @@ Coding Interview
 1. [字符串空格替换](src/problems/p05_replace_space_in_text.py)
 1. [有序列表合并](src/problems/p06_merge_two_sorted_arrays.py)
 1. [倒序打印链表](src/problems/p07_print_linkedlist_reversely.py)
+1. [使用两个栈构建队列](src/problems/p08_impl_queue_with_two_stacks.py)
+1. [使用两个队列构建栈](src/problems/p09_impl_stack_with_two_queues.py)
