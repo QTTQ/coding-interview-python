@@ -1,8 +1,6 @@
 """
     helpers
     ~~~~~~~~~~~~~~
-
-    Description of this module.
     
     :copyright: (c) 2017 by 0xE8551CCB.
     :license: MIT, see LICENSE for more details.
@@ -10,7 +8,9 @@
 import random
 from functools import wraps
 
-__all__ = ('simple_cache',)
+__all__ = ('simple_cache', 'bubble_sort', 'insertion_sort',
+           'selection_sort', 'merge_sort', 'quick_sort',
+           'shell_sort', 'heap_sort')
 
 
 #############################
@@ -30,6 +30,7 @@ def bubble_sort(seq=None):
     length = len(seq)
     for i in range(length):
         is_swapped = False
+        # MIND HERE
         for j in range(length - 1, i, -1):
             if seq[j - 1] > seq[j]:
                 is_swapped = True
@@ -59,6 +60,7 @@ def selection_sort(seq=None):
     for i in range(0, length):
         min_index = i
 
+        # MIND HERE
         for j in range(i + 1, length):
             if seq[j] < seq[min_index]:
                 min_index = j
@@ -85,6 +87,7 @@ def insertion_sort(seq=None):
 
     length = len(seq)
 
+    # MIND HERE: start with 1
     for i in range(1, length):
         val = seq[i]
 
@@ -114,9 +117,11 @@ def shell_sort(seq=None):
     length = len(seq)
     gap = length // 2
     while gap > 0:
+        # MIND HERE
         for i in range(gap, length):
             val = seq[i]
             j = i
+            # MIND HERE: `j >= gap`
             while j >= gap and seq[j - gap] > val:
                 seq[j] = seq[j - gap]
                 j -= gap
@@ -150,6 +155,7 @@ def merge_sort(seq=None):
         merged.extend(left_ or right_)
         return list(merged)
 
+    # MIND HERE
     mid = len(seq) // 2
     left = merge_sort(seq[:mid])
     right = merge_sort(seq[mid:])
@@ -189,6 +195,7 @@ def heap_sort(seq=None):
             heapify(seq, max_index, length)
 
     def build_heap(seq, length):
+        # MIND HERE
         for j in range(length // 2, -1, -1):
             heapify(seq, j, length)
 
@@ -197,6 +204,7 @@ def heap_sort(seq=None):
     length_ = len(seq)
     seq = build_heap(seq, length_)
 
+    # MIND HERE
     for i in range(length_ - 1, 0, -1):
         seq[0], seq[i] = seq[i], seq[0]
         heapify(seq, 0, i)
@@ -225,10 +233,12 @@ def quick_sort(seq=None):
     def partition(left, right):
         pivot = random.randrange(left, right)
         pivot_value = seq[pivot]
+        # MIND HERE
         seq[pivot], seq[right] = seq[right], seq[pivot]
 
         stored_index = left
         for i in range(left, right):
+            # MIND HERE
             if seq[i] < pivot_value:
                 seq[i], seq[stored_index] = seq[stored_index], seq[i]
                 stored_index += 1
@@ -278,4 +288,4 @@ if __name__ == '__main__':
     print(shell_sort([3, 1, 0, 8]))
     print(merge_sort([3, 1, 0, 8]))
     print(heap_sort([3, 1, 0, 8]))
-    print(quick_sort([3, 1, 1, 8]))
+    print(quick_sort([3, 0, 1, 8]))
