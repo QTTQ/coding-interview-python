@@ -16,3 +16,4 @@ Coding Interview
 1. [使用两个队列构建栈](src/problems/p09_impl_stack_with_two_queues.py)
 1. [计算斐波那契数列](src/problems/p10_fibonacci.py)
 1. [员工年龄排序](src/problems/p11_sort_ages.py)
+1. [旋转数组的最小数字](src/problems/p12_find_smallest_in_rotated_array.py)
