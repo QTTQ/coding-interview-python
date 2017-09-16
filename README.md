@@ -25,3 +25,4 @@ Coding Interview
 1. [删除链表的节点](src/problems/p18_delete_node_from_list.py)
 1. [删除链表中重复的节点](src/problems/p19_remove_duplicate_nodes_from_list.py)
 1. [正则表达式匹配](src/problems/p20_match_regex.py)
+1. [调整数组顺序使奇数位于偶数前面](src/problems/p21_adjust_odd_even_nums_in_array.py)
