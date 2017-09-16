@@ -6,6 +6,8 @@ python:
 
 install:
   - pip install coverage
+  - pip install coveralls
 
 script:
-  - python -m pytest --verbose tests
+  - python -m pytest --verbose --cov=./ tests
+  - coveralls
