@@ -6,7 +6,22 @@ Coding Interview
 《剑指 Offer》中的面试题解决方案汇总，相关实现使用 Python 3.6 完成，使用 `pytest` 作为单元测试工具，`coverage` 提供测试覆盖率报告。
 
 # 目录
+## 数据结构
+1. [栈](src/datastructures/stack.py)
+1. [队列](src/datastructures/queue.py)
+1. [双端队列](src/datastructures/deque.py)
+1. [单向链表](src/datastructures/linkedlist/single.py)
 
+## 排序算法
+1. [冒泡排序：`bubble_sort`](src/helpers.py)
+1. [选择排序：`selection_sort`](src/helpers.py)
+1. [插入排序：`insertion_sort`](src/helpers.py)
+1. [希尔排序：`shell_sort`](src/helpers.py)
+1. [归并排序：`merge_sort`](src/helpers.py)
+1. [堆排序：`heap_sort`](src/helpers.py)
+1. [快速排序：`quick_sort`](src/helpers.py)
+
+## 经典问题
 1. [求链表中的倒数第 k 个节点](src/problems/p01_find_kth_node.py)
 1. [找出数组中重复的数字](src/problems/p02_find_duplicate_numbers.py)
 1. [不修改数组找出重复的数字](src/problems/p03_find_duplicate_numbers2.py)
