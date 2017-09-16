@@ -1,7 +1,7 @@
 Coding Interview
 ------------------
 
-[![Build Status](https://travis-ci.org/OxE8551CCB/coding-interview-python.svg)](https://travis-ci.org/OxE8551CCB/coding-interview-python) [![Coverage Status](https://coveralls.io/repos/github/OxE8551CCB/coding-interview-python/badge.svg)](https://coveralls.io/github/OxE8551CCB/coding-interview-python)
+[![Build Status](https://travis-ci.org/OxE8551CCB/coding-interview-python.svg)](https://travis-ci.org/OxE8551CCB/coding-interview-python) [![Coverage Status](https://coveralls.io/repos/github/OxE8551CCB/coding-interview-python/badge.svg?branch=master)](https://coveralls.io/github/OxE8551CCB/coding-interview-python?branch=master)
 
 《剑指 Offer》中的面试题解决方案汇总，相关实现使用 Python 3.6 完成，使用 `pytest` 作为单元测试工具，`coverage` 提供测试覆盖率报告。
 
