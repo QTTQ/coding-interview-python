@@ -131,6 +131,13 @@ class List(object):
         else:
             self._root.next = prior
 
+    def find_node(self, val):
+        p = self._root.next
+        while p and p.val != val:
+            p = p.next
+
+        return p
+
     def __len__(self):
         return self._root.val
 
