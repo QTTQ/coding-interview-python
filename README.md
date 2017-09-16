@@ -20,3 +20,4 @@ Coding Interview
 1. [矩阵中的路径](src/problems/p13_matrix_has_path.py)
 1. [机器人的活动范围](src/problems/p14_robot_range_of_motion.py)
 1. [剪绳子](src/problems/p15_cut_rope.py)
+1. [二进制中 1 的个数](src/problems/p16_number_of_one.py)
