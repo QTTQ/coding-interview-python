@@ -21,3 +21,7 @@ Coding Interview
 1. [机器人的活动范围](src/problems/p14_robot_range_of_motion.py)
 1. [剪绳子](src/problems/p15_cut_rope.py)
 1. [二进制中 1 的个数](src/problems/p16_number_of_one.py)
+1. [数值的整数次方](src/problems/p17_power_of_n.py)
+1. [删除链表的节点](src/problems/p18_delete_node_from_list.py)
+1. [删除链表中重复的节点](src/problems/p19_remove_duplicate_nodes_from_list.py)
+1. [正则表达式匹配](src/problems/p20_match_regex.py)
