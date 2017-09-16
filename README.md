@@ -19,3 +19,4 @@ Coding Interview
 1. [旋转数组的最小数字](src/problems/p12_find_smallest_in_rotated_array.py)
 1. [矩阵中的路径](src/problems/p13_matrix_has_path.py)
 1. [机器人的活动范围](src/problems/p14_robot_range_of_motion.py)
+1. [剪绳子](src/problems/p15_cut_rope.py)
