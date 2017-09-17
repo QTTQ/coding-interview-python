@@ -44,6 +44,11 @@ class List(object):
     def fromvalues(cls, values=None):
         """Create a linked-list from an iterable object, e.g `list`
         """
+        if values is None:
+            o = cls()
+            o._root = None
+            return o
+
         o = cls()
 
         for v in values:

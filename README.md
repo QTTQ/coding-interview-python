@@ -45,3 +45,4 @@ Coding Interview
 1. [调整数组顺序使奇数位于偶数前面](src/problems/p21_adjust_odd_even_nums_in_array.py)
 1. [链表中环的入口节点](src/problems/p22_find_entry_of_partial_circular_list.py)
 1. [链表反转](src/problems/p23_reverse_list.py)
+1. [合并两个排序链表](src/problems/p24_merge_sorted_list.py)

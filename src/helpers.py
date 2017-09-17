@@ -8,9 +8,11 @@
 import random
 from functools import wraps
 
+from src.datastructures.linkedlist.single import List
+
 __all__ = ('simple_cache', 'bubble_sort', 'insertion_sort',
            'selection_sort', 'merge_sort', 'quick_sort',
-           'shell_sort', 'heap_sort')
+           'shell_sort', 'heap_sort', 'to_pylist')
 
 
 #############################
@@ -277,6 +279,17 @@ def simple_cache(func):
         if key not in cache:
             cache[key] = func(*args, **kwargs)
         return cache[key]
+
+    return _
+
+
+def to_pylist(func):
+    @wraps(func)
+    def _(*args, **kwargs):
+        head = func(*args, **kwargs)
+        if head is not None:
+            return list(List.fromhead(head))
+        return None
 
     return _
 

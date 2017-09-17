@@ -13,19 +13,8 @@
     :license: MIT, see LICENSE for more details.
 """
 from functools import wraps
-
+from src.helpers import to_pylist
 from src.datastructures.linkedlist.single import List
-
-
-def to_pylist(func):
-    @wraps(func)
-    def _(*args, **kwargs):
-        head = func(*args, **kwargs)
-        if head is not None:
-            return list(List.fromhead(head))
-        return None
-
-    return _
 
 
 @to_pylist
