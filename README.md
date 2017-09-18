@@ -46,3 +46,7 @@ Coding Interview
 1. [链表中环的入口节点](src/problems/p22_find_entry_of_partial_circular_list.py)
 1. [链表反转](src/problems/p23_reverse_list.py)
 1. [合并两个排序链表](src/problems/p24_merge_sorted_list.py)
+1. [顺时针打印矩阵](src/problems/p25_print_matrix_cw.py)
+1. [包含 min 函数的栈](src/problems/p26_min_stack.py)
+1. [栈的压入、弹出序列](src/problems/p27_push_pop_sequence_in_stack.py)
+1. [数组中出现次数超过一半的数字](src/problems/p28_num_occurs_more_than_others.py)
