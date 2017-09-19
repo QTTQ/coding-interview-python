@@ -61,3 +61,4 @@ Coding Interview
 1. [在排序数组中查找数字](src/problems/p37_count_num_in_sorted_array.py)
 1. [0~n-1 中缺失的数字](src/problems/p38_find_missing_number.py)
 1. [数组中数值和下标相等的元素](src/problems/p39_find_num_matches_index.py)
+1. [和为 s 的数字](src/problems/p40_two_sum.py)
