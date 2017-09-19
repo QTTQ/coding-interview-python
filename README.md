@@ -50,3 +50,4 @@ Coding Interview
 1. [包含 min 函数的栈](src/problems/p26_min_stack.py)
 1. [栈的压入、弹出序列](src/problems/p27_push_pop_sequence_in_stack.py)
 1. [数组中出现次数超过一半的数字](src/problems/p28_num_occurs_more_than_others.py)
+1. [最小的 k 个数](src/problems/p29_n_smallest_numbers.py)
