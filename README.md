@@ -51,3 +51,7 @@ Coding Interview
 1. [栈的压入、弹出序列](src/problems/p27_push_pop_sequence_in_stack.py)
 1. [数组中出现次数超过一半的数字](src/problems/p28_num_occurs_more_than_others.py)
 1. [最小的 k 个数](src/problems/p29_n_smallest_numbers.py)
+1. [数据流的中位数](src/problems/p30_middle_number_of_data_stream.py)
+1. [连续子数组的最大和](src/problems/p31_max_sum_of_sub_seq.py)
+1. [1~n 整数中 1 出现的次数](src/problems/p32_num_of_one.py)
+1.
