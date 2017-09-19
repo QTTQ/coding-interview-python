@@ -57,7 +57,7 @@ Coding Interview
 1. [最长不重复子串](src/problems/p33_longest_non_repeat_seq.py)
 1. [丑数](src/problems/p34_ugly_number.py)
 1. [第一个只出现一次的字符](src/problems/p35_first_not_repeating_char.py)
-1. []()
+1. [两个链表的第一个公共节点](src/problems/p36_find_first_common_node.py)
 1. []()
 1. []()
 1. []()
