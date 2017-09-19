@@ -54,4 +54,10 @@ Coding Interview
 1. [数据流的中位数](src/problems/p30_middle_number_of_data_stream.py)
 1. [连续子数组的最大和](src/problems/p31_max_sum_of_sub_seq.py)
 1. [1~n 整数中 1 出现的次数](src/problems/p32_num_of_one.py)
-1.
+1. [最长不重复子串](src/problems/p33_longest_non_repeat_seq.py)
+1. [丑数](src/problems/p34_ugly_number.py)
+1. [第一个只出现一次的字符](src/problems/p35_first_not_repeating_char.py)
+1. []()
+1. []()
+1. []()
+1. []()
