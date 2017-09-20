@@ -62,3 +62,5 @@ Coding Interview
 1. [0~n-1 中缺失的数字](src/problems/p38_find_missing_number.py)
 1. [数组中数值和下标相等的元素](src/problems/p39_find_num_matches_index.py)
 1. [和为 s 的数字](src/problems/p40_two_sum.py)
+1. [滑动窗口的最大值](src/problems/p41_find_max_in_sliding_window.py)
+1. [队列的最大值](src/problems/p42_max_queue.py)
